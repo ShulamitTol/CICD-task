@@ -13,7 +13,6 @@ app.use(cors());
 app.use(express.urlencoded())
 app.use(express.json());
 
-
 app.use("/task", taskRouter);
 
 
