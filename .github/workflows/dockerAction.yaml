@@ -18,5 +18,5 @@ jobs:
 
     - name: Build and Push Docker Image
       run: |
-        docker build -t ghcr.io/ShulamitTol/a52f41373e232acdd51a49af212eee00921e33ad .
-        docker push ghcr.io/ShulamitTol/a52f41373e232acdd51a49af212eee00921e33ad .
+        docker build -t ghcr.io/shulamittem/my-app .
+        docker push ghcr.io/shulamittem/my-app .
