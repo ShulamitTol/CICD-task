@@ -15,6 +15,7 @@ function findSingleElement(req,res) {
     }
   console.log(arr,result)
     res.send("the result"+result) ;
+    
   };
 
 
