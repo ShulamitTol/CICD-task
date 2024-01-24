@@ -18,5 +18,5 @@ jobs:
 
     - name: Build and Push Docker Image
       run: |
-        docker build -t ghcr.io/${{ github.repository_owner }}/${{ github.repository_name }}:${{ github.sha }} .
-        docker push ghcr.io/${{ github.repository_owner }}/${{ github.repository_name }}:${{ github.sha }}
+        docker build -t ghcr.io/ShulamitTol/a52f41373e232acdd51a49af212eee00921e33ad .
+        docker push ghcr.io/ShulamitTol/a52f41373e232acdd51a49af212eee00921e33ad .
